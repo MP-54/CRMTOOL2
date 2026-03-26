@@ -1,0 +1,62 @@
+# --- Secrets (Streamlit) ---
+.streamlit/secrets.toml
+.streamlit/secrets*.toml
+
+# --- Supabase local config ---
+supabase.toml
+
+# --- Python environments ---
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# --- Python caches & build ---
+__pycache__/
+*.py[cod]
+*.pyo
+.Python
+build/
+dist/
+*.egg-info/
+pip-wheel-metadata/
+.cache/
+
+# --- Testing / tooling caches ---
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.nox/
+.coverage*
+coverage.xml
+
+# --- Env / secrets / certs ---
+.env
+.env.*
+*.pem
+*.crt
+*.cer
+*.key
+*.pfx
+
+# --- IDE / Editors ---
+.vscode/
+.idea/
+.spyproject/
+.ropeproject/
+.python-version
+
+# --- Notebooks ---
+.ipynb_checkpoints/
+
+# --- OS-specific ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Logs ---
+logs/
+*.log
