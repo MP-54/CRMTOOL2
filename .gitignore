@@ -1,10 +1,3 @@
-# --- Secrets (Streamlit) ---
-.streamlit/secrets.toml
-.streamlit/secrets*.toml
-
-# --- Supabase local config ---
-supabase.toml
-
 # --- Python environments ---
 .venv/
 env/
